@@ -13,7 +13,7 @@
 <p>
 <a href="https://github.com/Ayont/AyCode-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Ayont/AyCode-releases?label=release&color=8b5cf6&style=for-the-badge&labelColor=17151d"></a>
 <a href="https://github.com/Ayont/AyCode-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Ayont/AyCode-releases/total?color=7c3aed&style=for-the-badge&labelColor=17151d"></a>
-<a href="#download"><img alt="macOS · Windows Apple Silicon · x64" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows-Apple%20Silicon%20%C2%B7%20x64-a78bfa?style=for-the-badge&labelColor=17151d"></a>
+<a href="#download"><img alt="macOS · Windows · Linux Apple Silicon · x64" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-Apple%20Silicon%20%C2%B7%20x64-a78bfa?style=for-the-badge&labelColor=17151d"></a>
 <a href="https://github.com/Ayont/AyCode-releases/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Ayont/AyCode-releases?logo=github&label=stars&color=f59e0b&style=for-the-badge&labelColor=17151d"></a>
 </p>
 
@@ -37,7 +37,7 @@
 
 <h2>Was ist AyCode?</h2>
 
-<p>AyCode ist eine Desktop-App (GUI) für Coding-Agenten aus dem Terminal, für macOS und Windows. Statt <b>Claude Code</b>, <b>OpenAI Codex CLI</b>, <b>Gemini CLI</b>, <b>Grok</b>, <b>OpenCode</b>, <b>Cline</b>, <b>Kimi Code</b> und andere KI-Agenten in einzelnen Terminal-Tabs zu jonglieren, laufen sie nebeneinander in einem ruhigen Fenster: mit Live-Diffs, Freigaben, Git-Worktrees, Modellauswahl, Kostenübersicht und deinen Obsidian-Notizen als Langzeitgedächtnis. Agentic Coding und Vibe Coding, ohne den Überblick zu verlieren.</p>
+<p>AyCode ist eine Desktop-App (GUI) für Coding-Agenten aus dem Terminal, für macOS, Windows und Linux. Statt <b>Claude Code</b>, <b>OpenAI Codex CLI</b>, <b>Gemini CLI</b>, <b>Grok</b>, <b>OpenCode</b>, <b>Cline</b>, <b>Kimi Code</b> und andere KI-Agenten in einzelnen Terminal-Tabs zu jonglieren, laufen sie nebeneinander in einem ruhigen Fenster: mit Live-Diffs, Freigaben, Git-Worktrees, Modellauswahl, Kostenübersicht und deinen Obsidian-Notizen als Langzeitgedächtnis. Agentic Coding und Vibe Coding, ohne den Überblick zu verlieren.</p>
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/divider-dark.svg">
@@ -147,12 +147,17 @@
 <a href="https://github.com/Ayont/AyCode-releases/releases/latest"><picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/download-mac-de-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/download-mac-de-light.svg">
-  <img alt="Für macOS laden" src=".github/readme/download-mac-de-dark.svg" width="380">
+  <img alt="Für macOS laden" src=".github/readme/download-mac-de-dark.svg" width="264">
 </picture></a>
 <a href="https://github.com/Ayont/AyCode-releases/releases/latest"><picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/download-windows-de-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/download-windows-de-light.svg">
-  <img alt="Für Windows laden" src=".github/readme/download-windows-de-dark.svg" width="380">
+  <img alt="Für Windows laden" src=".github/readme/download-windows-de-dark.svg" width="264">
+</picture></a>
+<a href="https://github.com/Ayont/AyCode-releases/releases/latest"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/readme/download-linux-de-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset=".github/readme/download-linux-de-light.svg">
+  <img alt="Für Linux laden" src=".github/readme/download-linux-de-dark.svg" width="264">
 </picture></a>
 </p>
 
@@ -162,7 +167,7 @@
 <tr><th>System</th><th>Datei im Release</th><th>Voraussetzungen</th><th>Stand</th></tr>
 <tr><td><b>macOS</b></td><td><code>AyCode-&lt;Version&gt;-arm64.dmg</code></td><td>Apple Silicon (M1 oder neuer), macOS 12+</td><td>✅ Fertig</td></tr>
 <tr><td><b>Windows</b></td><td><code>AyCode-Setup-&lt;Version&gt;-win-x64.exe</code><br><sub>portabel: <code>AyCode-&lt;Version&gt;-win-x64.zip</code></sub></td><td>Windows 10 oder 11, 64 Bit</td><td>🧪 Beta</td></tr>
-<tr><td><b>Linux</b></td><td>AppImage und .deb</td><td></td><td>🔜 Bald</td></tr>
+<tr><td><b>Linux</b></td><td><code>AyCode-&lt;Version&gt;-linux-x86_64.AppImage</code><br><sub>oder <code>AyCode-&lt;Version&gt;-linux-amd64.deb</code></sub></td><td>x64, glibc 2.34+ (Ubuntu 22.04, Debian 12, Fedora 35 und neuer)</td><td>🧪 Beta</td></tr>
 <tr><td><b>iPhone & Apple Watch</b></td><td>Chats, Freigaben und Widgets unterwegs</td><td></td><td>🔜 Bald</td></tr>
 <tr><td><b>Android</b></td><td>Chats und Freigaben unterwegs</td><td></td><td>🔜 Bald</td></tr>
 </table>
@@ -170,7 +175,7 @@
 </div>
 
 > [!NOTE]
-> <b>Erster Start auf dem Mac:</b> Die App ist noch nicht von Apple notarisiert. Blockiert macOS sie, unter <i>Systemeinstellungen → Datenschutz & Sicherheit</i> auf <i>Dennoch öffnen</i> klicken. <b>Unter Windows:</b> Warnt SmartScreen, <i>Weitere Informationen → Trotzdem ausführen</i> wählen.
+> <b>Erster Start auf dem Mac:</b> Die App ist noch nicht von Apple notarisiert. Blockiert macOS sie, unter <i>Systemeinstellungen → Datenschutz & Sicherheit</i> auf <i>Dennoch öffnen</i> klicken. <b>Unter Windows:</b> Warnt SmartScreen, <i>Weitere Informationen → Trotzdem ausführen</i> wählen. <b>Unter Linux:</b> Das AppImage einmal ausführbar machen (<code>chmod +x</code>) oder das .deb per Doppelklick bzw. <code>sudo apt install</code> installieren.
 
 Danach aktualisiert sich AyCode selbst. Jedes Update ist mit dem Schlüssel des Herausgebers signiert (<code>SHA256SUMS</code> + <code>SHA256SUMS.sig</code> in jedem Release), und AyCode installiert nur Updates mit gültiger Signatur.
 
@@ -189,7 +194,7 @@ Danach aktualisiert sich AyCode selbst. Jedes Update ist mit dem Schlüssel des 
 <table>
 <tr>
 <td width="33%" valign="top" align="center"><h3>①</h3><b>Laden</b><br><sub>Oben dein System wählen. Die Datei kommt direkt aus diesem Repository.</sub></td>
-<td width="33%" valign="top" align="center"><h3>②</h3><b>Öffnen</b><br><sub>Auf dem Mac AyCode in „Programme“ ziehen, unter Windows den Installer starten.</sub></td>
+<td width="33%" valign="top" align="center"><h3>②</h3><b>Öffnen</b><br><sub>Auf dem Mac AyCode in „Programme“ ziehen, unter Windows den Installer starten, unter Linux das AppImage starten oder das .deb installieren.</sub></td>
 <td width="33%" valign="top" align="center"><h3>③</h3><b>Bei deinen Agenten anmelden</b><br><sub>Einmal pro Provider. AyCode findet deinen Obsidian-Vault und deine bisherigen Chats.</sub></td>
 </tr>
 </table>
@@ -207,8 +212,8 @@ Danach aktualisiert sich AyCode selbst. Jedes Update ist mit dem Schlüssel des 
 </picture></p>
 
 <table>
+<tr><td width="96" align="center"><a href="https://github.com/Ayont/AyCode-releases/releases/tag/v7.2.0"><b>7.2.0</b></a></td><td>AyCode für Linux, Diktat in jede App, Gruppenchats, in denen Aylinge in Sekunden antworten und abstimmen, und „Problem melden“ direkt aus den Einstellungen.</td></tr>
 <tr><td width="96" align="center"><a href="https://github.com/Ayont/AyCode-releases/releases/tag/v7.1.4"><b>7.1.4</b></a></td><td>Claude Opus 5.5 und Sonnet 5.5 in Antigravity, jeweils in Low, Medium und High.</td></tr>
-<tr><td width="96" align="center"><a href="https://github.com/Ayont/AyCode-releases/releases/tag/v7.1.3"><b>7.1.3</b></a></td><td>Der Chat bleibt ruhig, während eine Antwort läuft, die Einstellungen sprechen Englisch, und „Was ist neu“ steht in der App.</td></tr>
 <tr><td width="96" align="center"><a href="https://github.com/Ayont/AyCode-releases/releases/tag/v7.1.2"><b>7.1.2</b></a></td><td>Sitzungen aus Claude Code und Codex im Terminal übernehmen, lokale Modelle aus Ollama und LM Studio in Codex, Bilder und Reaktionen in Gruppenchats.</td></tr>
 <tr><td width="96" align="center"><a href="https://github.com/Ayont/AyCode-releases/releases/tag/v7.1.0"><b>7.1.0</b></a></td><td>Gruppenchats mit Aylingen, Team-Sessions im Browser, ein Prompt an mehrere Modelle, Diff-Kommentare und der Verlauf als Stundenzettel.</td></tr>
 </table>
