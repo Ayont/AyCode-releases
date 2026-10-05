@@ -35,6 +35,10 @@
 </tr>
 </table>
 
+<h2>What is AyCode?</h2>
+
+<p>AyCode is a desktop app (GUI) for terminal coding agents on macOS and Windows. Instead of juggling <b>Claude Code</b>, <b>OpenAI Codex CLI</b>, <b>Gemini CLI</b>, <b>Grok</b>, <b>OpenCode</b>, <b>Cline</b>, <b>Kimi Code</b> and other AI agents in separate terminal tabs, you run them side by side in one calm window: with live diffs, approvals, git worktrees, a model picker, cost tracking and your Obsidian notes as long-term memory. Agentic coding and vibe coding, without losing track.</p>
+
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/divider-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/divider-light.svg">
@@ -246,6 +250,13 @@ No. AyCode reads an Obsidian vault if you have one and works fine without.
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/star-light.svg">
   <img alt="Like AyCode? Leave a star on GitHub" src=".github/readme/star-dark.svg" width="100%">
 </picture></a>
+</p>
+
+<p align="center"><b>Tell a friend:</b>&nbsp;
+<a href="https://x.com/intent/post?text=AyCode%3A%20every%20AI%20coding%20agent%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20one%20calm%20desktop%20app&url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases">Share on X</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases&title=AyCode%3A%20every%20AI%20coding%20agent%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20one%20calm%20desktop%20app">Reddit</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases&t=AyCode%3A%20every%20AI%20coding%20agent%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20one%20calm%20desktop%20app">Hacker News</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases">LinkedIn</a>
 </p>
 
 <p align="center">

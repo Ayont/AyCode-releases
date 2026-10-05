@@ -35,6 +35,10 @@
 </tr>
 </table>
 
+<h2>Was ist AyCode?</h2>
+
+<p>AyCode ist eine Desktop-App (GUI) für Coding-Agenten aus dem Terminal, für macOS und Windows. Statt <b>Claude Code</b>, <b>OpenAI Codex CLI</b>, <b>Gemini CLI</b>, <b>Grok</b>, <b>OpenCode</b>, <b>Cline</b>, <b>Kimi Code</b> und andere KI-Agenten in einzelnen Terminal-Tabs zu jonglieren, laufen sie nebeneinander in einem ruhigen Fenster: mit Live-Diffs, Freigaben, Git-Worktrees, Modellauswahl, Kostenübersicht und deinen Obsidian-Notizen als Langzeitgedächtnis. Agentic Coding und Vibe Coding, ohne den Überblick zu verlieren.</p>
+
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/divider-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/divider-light.svg">
@@ -246,6 +250,13 @@ Nein. AyCode liest einen Obsidian-Vault, wenn du einen hast, und läuft auch ohn
   <source media="(prefers-color-scheme: light)" srcset=".github/readme/star-de-light.svg">
   <img alt="Gefällt dir AyCode? Gib uns einen Stern auf GitHub" src=".github/readme/star-de-dark.svg" width="100%">
 </picture></a>
+</p>
+
+<p align="center"><b>Weitersagen:</b>&nbsp;
+<a href="https://x.com/intent/post?text=AyCode%3A%20alle%20KI-Coding-Agenten%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20einer%20ruhigen%20Desktop-App&url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases">Auf X teilen</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases&title=AyCode%3A%20alle%20KI-Coding-Agenten%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20einer%20ruhigen%20Desktop-App">Reddit</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases&t=AyCode%3A%20alle%20KI-Coding-Agenten%20(Claude%20Code%2C%20Codex%2C%20Gemini%2C%20Grok%2C%20OpenCode%20%E2%80%A6)%20in%20einer%20ruhigen%20Desktop-App">Hacker News</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FAyont%2FAyCode-releases">LinkedIn</a>
 </p>
 
 <p align="center">

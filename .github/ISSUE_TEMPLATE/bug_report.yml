@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in AyCode does not work as expected. (Deutsch ist auch okay.)
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time! Please do not paste API keys, tokens or private code.
+        Danke! Bitte keine API-Schlüssel, Tokens oder privaten Code einfügen.
+  - type: input
+    id: version
+    attributes:
+      label: AyCode version
+      description: Settings › About shows it.
+      placeholder: "7.1.4"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options:
+        - macOS (Apple Silicon)
+        - Windows 10
+        - Windows 11
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Agent / provider
+      description: Which agent was running, if any?
+      placeholder: "Claude Code, Codex, Gemini, Grok, OpenCode, Cline, …"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or error text
+      description: Drag images in here. The text of an error card helps a lot.
