@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time! Please do not paste API keys, tokens or private code.
-        Danke! Bitte keine API-Schlüssel, Tokens oder privaten Code einfügen.
+        Thanks for taking the time! Issues here are public: please do not paste API keys, tokens or private code. A security problem goes to **Security → Report a vulnerability** instead.
+        Danke! Issues hier sind öffentlich: Bitte keine API-Schlüssel, Tokens oder privaten Code einfügen. Sicherheitslücken bitte über **Security → Report a vulnerability** melden.
   - type: input
     id: version
     attributes:
@@ -23,6 +23,7 @@ body:
         - macOS (Apple Silicon)
         - Windows 10
         - Windows 11
+        - Linux
         - Other
     validations:
       required: true
@@ -51,4 +52,4 @@ body:
     id: media
     attributes:
       label: Screenshots or error text
-      description: Drag images in here. The text of an error card helps a lot.
+      description: Drag images in here. The text of an error card helps a lot. Before posting, cover keys, tokens and folder paths that show your name.
