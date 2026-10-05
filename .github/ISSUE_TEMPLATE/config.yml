@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://aycode.app/docs/
+    about: Every part of AyCode explained, step by step.
+  - name: Website and downloads
+    url: https://aycode.app
+    about: The newest version for macOS, Windows and Linux.

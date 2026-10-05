@@ -1,0 +1,23 @@
+name: Feature idea
+description: Suggest something AyCode should do. (Deutsch ist auch okay.)
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation and what gets in your way today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How should it work in AyCode?
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Agent / provider it concerns (optional)
+      placeholder: "Claude Code, Codex, Gemini, Grok, OpenCode, Cline, …"
